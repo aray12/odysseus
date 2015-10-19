@@ -1,5 +1,5 @@
 #!/bin/bash
 
-REG="\btag\b.*$1"
+REG="\btags\b.*$1"
 DIR=|pwd
 grep -ir $REG .
